@@ -1,0 +1,29 @@
+test_agent_supplied_identity_rejected (test_runtime_gate.GateTests.test_agent_supplied_identity_rejected) ... ok
+test_agent_supplied_risk_rejected (test_runtime_gate.GateTests.test_agent_supplied_risk_rejected) ... ok
+test_approval_cannot_create_scope (test_runtime_gate.GateTests.test_approval_cannot_create_scope) ... ok
+test_budget (test_runtime_gate.GateTests.test_budget) ... ok
+test_expired (test_runtime_gate.GateTests.test_expired) ... ok
+test_forged_mac (test_runtime_gate.GateTests.test_forged_mac) ... ok
+test_legal_read (test_runtime_gate.GateTests.test_legal_read) ... ok
+test_log_does_not_store_raw_value_or_token (test_runtime_gate.GateTests.test_log_does_not_store_raw_value_or_token) ... ok
+test_malformed_token (test_runtime_gate.GateTests.test_malformed_token) ... ok
+test_missing_approval_preserves_state (test_runtime_gate.GateTests.test_missing_approval_preserves_state) ... ok
+test_off_mode_is_unsafe_mock_control (test_runtime_gate.GateTests.test_off_mode_is_unsafe_mock_control) ... ok
+test_old_token_after_restart (test_runtime_gate.GateTests.test_old_token_after_restart) ... ok
+test_other_arguments (test_runtime_gate.GateTests.test_other_arguments) ... ok
+test_other_principal_with_permission (test_runtime_gate.GateTests.test_other_principal_with_permission) ... ok
+test_other_resource (test_runtime_gate.GateTests.test_other_resource) ... ok
+test_other_tenant (test_runtime_gate.GateTests.test_other_tenant) ... ok
+test_other_workflow (test_runtime_gate.GateTests.test_other_workflow) ... ok
+test_replay (test_runtime_gate.GateTests.test_replay) ... ok
+test_state_changed_since_approval (test_runtime_gate.GateTests.test_state_changed_since_approval) ... ok
+test_unknown_action (test_runtime_gate.GateTests.test_unknown_action) ... ok
+test_unknown_principal (test_runtime_gate.GateTests.test_unknown_principal) ... ok
+test_valid_approval_has_effect (test_runtime_gate.GateTests.test_valid_approval_has_effect) ... ok
+test_zero_denominator_raises (test_runtime_gate.GateTests.test_zero_denominator_raises) ... ok
+test_zero_event_bound (test_runtime_gate.GateTests.test_zero_event_bound) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.001s
+
+OK
