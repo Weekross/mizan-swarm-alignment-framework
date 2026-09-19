@@ -5,7 +5,10 @@
 **Original author:** Vasyl Perehinskyi  
 **ORCID:** [https://orcid.org/0009-0004-7272-5286](https://orcid.org/0009-0004-7272-5286)  
 **First public version:** 2026  
-**Current version:** v1.0.0
+**Current version:** v1.0.0  
+**DOI:** [10.5281/zenodo.22846304](https://doi.org/10.5281/zenodo.22846304)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22846304.svg)](https://doi.org/10.5281/zenodo.22846304)
 
 MSAF explores how selected Qur’anic principles can inspire formal invariants for AI, AGI and multi-agent systems while explicitly separating revelation, interpretation and engineering analogy.
 
