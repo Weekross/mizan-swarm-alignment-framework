@@ -1,0 +1,32 @@
+{
+  "title": "MĪZĀN: від коранічних принципів до перевірюваного управління мультиагентними системами",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "creators": [
+    {
+      "name": "Perehinskyi, Vasyl",
+      "orcid": "0009-0004-7272-5286"
+    }
+  ],
+  "description": "MIZAN: From Quranic Principles to Testable Multi-Agent Governance. Ukrainian working paper, author draft v0.1. The manuscript distinguishes normative motivation, proposed runtime controls, threat models and planned evaluations. It reports 24 local deterministic unit tests of a bounded mock model, not LLM experiments, production isolation or validated alignment. Independent peer review and a full Quranic source audit have not been completed.",
+  "version": "0.1",
+  "language": "ukr",
+  "access_right": "open",
+  "license": "cc-by-sa-4.0",
+  "keywords": [
+    "multi-agent governance",
+    "runtime assurance",
+    "AI evaluation",
+    "Quran-inspired AI ethics",
+    "provenance",
+    "MSAF"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22846304",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Working paper draft. The related MSAF identifier is not the DOI of this manuscript. AI assistance is disclosed in the manuscript."
+}
