@@ -1,0 +1,22 @@
+{
+  "artifact": "MSAF Working Paper v0.1",
+  "verification_date": "2026-09-19",
+  "check_type": "local_unit_tests_not_LLM_evaluation",
+  "python": "3.13.5",
+  "unit_tests": 24,
+  "passed": 24,
+  "failed": 0,
+  "llm_calls": 0,
+  "full_eval_runs": 0,
+  "production_isolation_tested": false,
+  "independent_peer_review_completed": false,
+  "source_repository_base": "0f9fdcbb4f442471ffc56e828dc7646d92272e54",
+  "source_hashes_sha256": {
+    "reproduction/prototype/runtime_gate.py": "b8518ba98cced47c7ef17c51640d1e2b9fb32e29dcad9d0e76b08bc3a2cf50fb",
+    "reproduction/tests/test_runtime_gate.py": "b0e21f5690e65bca1562cbe666dd6b18c4d6d6c2eddf3115b41eeb4a88567b83",
+    "MSAF_Working_Paper_v0.1_UA.md": "bd8c8bae63e217e181aeca7705aa06f8ff90040ed9786a9b85895bfc312142e0"
+  },
+  "external_eval_spec_sha256": "4e19f8994b36bee46791dd64c419d085b02cd30a9b6cf8d33fca0c33041780e4",
+  "external_eval_spec_redistributed": false,
+  "warning": "24 unit tests are not 24 independent security episodes and do not validate MSAF or the five planned evals."
+}
