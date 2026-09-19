@@ -1,0 +1,30 @@
+{
+  "title": "Mīzān Swarm Alignment Framework (MSAF): Qur’anic Systems Guide for AI, AGI & Multi-Agent Swarms",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "creators": [
+    {
+      "name": "Perehinskyi, Vasyl",
+      "orcid": "0009-0004-7272-5286"
+    }
+  ],
+  "description": "Research/design framework mapping selected Qur’anic principles to engineering invariants, governance mechanisms, permissions, audit requirements and evaluation criteria for AI, AGI and multi-agent systems.",
+  "license": "cc-by-sa-4.0",
+  "keywords": [
+    "AI alignment",
+    "AGI",
+    "multi-agent systems",
+    "swarm intelligence",
+    "AI safety",
+    "AI governance",
+    "Qur'anic systems",
+    "Islamic AI ethics",
+    "mizan",
+    "shura",
+    "tabayyun",
+    "amanah"
+  ],
+  "version": "1.0.0",
+  "language": "ukr",
+  "access_right": "open"
+}
