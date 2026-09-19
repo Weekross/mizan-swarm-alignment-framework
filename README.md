@@ -38,3 +38,15 @@ Framework text and documentation: **CC BY-SA 4.0** unless otherwise stated.
 This is a research/design framework, not a fatwa and not a tafsīr.
 
 **الله أعلم — Allah knows best.**
+
+
+## Machine-readable MSAF
+
+Development for **v1.1.0** introduces a machine-readable representation of the framework:
+
+- `schema/msaf-invariant.schema.json` — JSON Schema for one invariant
+- `schema/msaf-eval.schema.json` — JSON Schema for one evaluation
+- `data/invariants.v1.0.0.json` — 47 published v1.0.0 invariants in structured form
+- `data/evals.v1.0.0.json` — 15 initial evaluation definitions
+
+These files explicitly separate the **Qur’anic anchor** from the **engineering interpretation** and include an `analogy_level` field to reduce category errors between revelation, interpretation, and systems design.
