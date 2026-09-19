@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite it using the metadata below."
+title: "Mīzān Swarm Alignment Framework (MSAF): Qur’anic Systems Guide for AI, AGI & Multi-Agent Swarms"
+type: software
+version: 1.0.0
+date-released: 2026-09-19
+authors:
+  - family-names: "Perehinskyi"
+    given-names: "Vasyl"
+    orcid: "https://orcid.org/0009-0004-7272-5286"
+license: CC-BY-SA-4.0
+repository-code: "https://github.com/Weekross/mizan-swarm-alignment-framework"
+url: "https://weekross.github.io/mizan-swarm-alignment-framework/"
+keywords:
+  - AI alignment
+  - AGI
+  - multi-agent systems
+  - swarm intelligence
+  - AI safety
+  - AI governance
+  - Qur'anic systems
+  - Islamic AI ethics
+  - mizan
+  - shura
+  - tabayyun
+  - amanah
