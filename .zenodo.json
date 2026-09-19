@@ -1,15 +1,18 @@
 {
-  "title": "Mīzān Swarm Alignment Framework (MSAF): Qur’anic Systems Guide for AI, AGI & Multi-Agent Swarms",
-  "upload_type": "publication",
-  "publication_type": "technicalnote",
   "creators": [
     {
       "name": "Perehinskyi, Vasyl",
-      "orcid": "0009-0004-7272-5286"
+      "orcid": "0009-0004-7272-5286",
+      "type": "ProjectLeader"
     }
   ],
-  "description": "Research/design framework mapping selected Qur’anic principles to engineering invariants, governance mechanisms, permissions, audit requirements and evaluation criteria for AI, AGI and multi-agent systems.",
+  "title": "Mīzān Swarm Alignment Framework (MSAF): Qur’anic Systems Guide for AI, AGI & Multi-Agent Swarms",
+  "version": "1.0.0",
+  "description": "A research and design framework mapping selected Qur’anic principles to engineering invariants, governance mechanisms, permission models, audit requirements, and evaluation criteria for AI, AGI, and multi-agent systems.",
+  "access_right": "open",
   "license": "cc-by-sa-4.0",
+  "upload_type": "software",
+  "language": "ukr",
   "keywords": [
     "AI alignment",
     "AGI",
@@ -24,7 +27,14 @@
     "tabayyun",
     "amanah"
   ],
-  "version": "1.0.0",
-  "language": "ukr",
-  "access_right": "open"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Weekross/mizan-swarm-alignment-framework",
+      "relation": "isSupplementedBy"
+    },
+    {
+      "identifier": "https://weekross.github.io/mizan-swarm-alignment-framework/",
+      "relation": "isDocumentedBy"
+    }
+  ]
 }
