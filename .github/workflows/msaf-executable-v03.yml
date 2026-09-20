@@ -1,0 +1,35 @@
+name: MSAF executable v03 (synthetic checks)
+on:
+  push:
+    branches:
+      - research/executable-b2-gate-v0.3
+    paths:
+      - experiments/v0_3/**
+      - .github/workflows/msaf-executable-v03.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  regression:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - name: Checkout fixed run revision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+      - name: Gate, B2, explicit mutants and historical probes
+        run: |
+          python3 experiments/v0_3/run_checks.py --out ci-evidence-v03 \
+            --legacy papers/working-paper-v0.1/reproduction
+      - name: Publish all evidence including failures
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: msaf-v03-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ci-evidence-v03/
+          if-no-files-found: error
+          retention-days: 90
